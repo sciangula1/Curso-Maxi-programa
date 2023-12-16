@@ -98,7 +98,7 @@ namespace prueba1
             this.txtApellido.BackColor = System.Drawing.SystemColors.Menu;
             this.txtApellido.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtApellido.Location = new System.Drawing.Point(80, 6);
-            this.txtApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(4);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(350, 25);
             this.txtApellido.TabIndex = 7;
@@ -109,7 +109,7 @@ namespace prueba1
             this.txtNombre.BackColor = System.Drawing.SystemColors.Menu;
             this.txtNombre.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNombre.Location = new System.Drawing.Point(80, 41);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(350, 25);
             this.txtNombre.TabIndex = 8;
@@ -119,7 +119,7 @@ namespace prueba1
             // 
             this.txtEdad.BackColor = System.Drawing.SystemColors.Menu;
             this.txtEdad.Location = new System.Drawing.Point(80, 74);
-            this.txtEdad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEdad.Margin = new System.Windows.Forms.Padding(4);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(46, 25);
             this.txtEdad.TabIndex = 9;
@@ -130,7 +130,7 @@ namespace prueba1
             this.txtDireccion.BackColor = System.Drawing.SystemColors.Menu;
             this.txtDireccion.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtDireccion.Location = new System.Drawing.Point(80, 110);
-            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(350, 25);
             this.txtDireccion.TabIndex = 10;
@@ -139,7 +139,7 @@ namespace prueba1
             // btnAceptar
             // 
             this.btnAceptar.Location = new System.Drawing.Point(25, 405);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(88, 30);
             this.btnAceptar.TabIndex = 12;
@@ -151,7 +151,7 @@ namespace prueba1
             // 
             this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnLimpiar.Location = new System.Drawing.Point(343, 157);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(88, 30);
             this.btnLimpiar.TabIndex = 13;
@@ -164,7 +164,7 @@ namespace prueba1
             this.lwDatos.BackColor = System.Drawing.SystemColors.Menu;
             this.lwDatos.HideSelection = false;
             this.lwDatos.Location = new System.Drawing.Point(25, 222);
-            this.lwDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lwDatos.Margin = new System.Windows.Forms.Padding(4);
             this.lwDatos.Name = "lwDatos";
             this.lwDatos.Size = new System.Drawing.Size(406, 157);
             this.lwDatos.TabIndex = 14;
@@ -178,7 +178,7 @@ namespace prueba1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.BackColor = System.Drawing.Color.Beige;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(455, 462);
             this.Controls.Add(this.lwDatos);
@@ -196,7 +196,7 @@ namespace prueba1
             this.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
